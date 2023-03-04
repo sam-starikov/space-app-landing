@@ -1,0 +1,37 @@
+._container {
+   max-width: 1260px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+// PC
+@media (max-width: 1260px) {
+   ._container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 15px;
+   }
+}
+// TABLET
+@media (max-width: 1200px) {
+   ._container {
+      max-width: 767.98px;
+      margin: 0 auto;
+      padding: 0 15px;
+   }
+ }
+// MOBILE
+@media (max-width: 767.98px) {
+   ._container {
+      max-width: 576px;
+      margin: 0 auto;
+      padding: 0 15px;
+   }
+}
+// MOBILE
+@media (max-width: 576px) {
+   ._container {
+      max-width: 320px;
+      margin: 0 auto;
+      padding: 0 15px;
+   }
+}
