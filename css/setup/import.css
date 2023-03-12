@@ -2,9 +2,12 @@
 @import url(/css/setup/fonts.css);
 
 
+
 @import url(/css/blocks/container.css);
 @import url(/css/blocks/wrapper.css);
 
 @import url(/css/blocks/button.css);
 @import url(/css/blocks/header.css);
 @import url(/css/blocks/main.css);
+@import url(/css/blocks/about.css);
+@import url(/css/blocks/analytics.css);

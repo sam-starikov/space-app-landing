@@ -1,0 +1,95 @@
+.analytics {
+   max-width: 100%;
+
+   &__body {
+      
+      display: flex;
+   }
+}
+
+.analytics-left {
+   max-width: 630px;
+   padding-right: 10px;
+
+   &__title {
+      position: relative;
+      margin-bottom: 48px;
+      padding-top: 25px;
+   }
+
+   &__title::before {
+      content: '';
+      background: url(/img/Rectangle\ .jpg);
+      position: absolute;
+      height: 8px;
+      width: 75px;
+      top: 0;
+      left: 0;
+   }
+
+   &__title:last-child {
+      margin-bottom: 0;
+   }
+
+   &__chart {
+      max-width: 495px;
+      margin-bottom: 79px;
+   }
+
+   &__button {
+      margin-bottom: 233px;
+   }
+}
+.title-analitycs {
+   font-size: 32px;
+   font-weight: 900;
+   line-height: 38px;
+   letter-spacing: 0em;
+}
+.chart {
+}
+.button {
+   &_black-shadow {
+   }
+}
+
+.analytics-right {
+   max-width: 630px;
+   padding-left: 10px;
+
+   &__title {
+      position: relative;
+      margin-bottom: 48px;
+      padding-top: 25px;
+   }
+
+   &__title::before {
+      content: '';
+      background: url(/img/Rectangle\ .jpg);
+      position: absolute;
+      height: 8px;
+      width: 75px;
+      top: 0;
+      left: 0;
+   }
+
+   &__images {
+      position: relative;
+   }
+	&__images img {
+		height: 100%;
+		width: 100%;
+      object-fit: cover;
+   }
+
+   &__img-man {
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+   &__img-circle {
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+}
