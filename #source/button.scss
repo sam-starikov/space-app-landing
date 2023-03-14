@@ -1,5 +1,5 @@
 .button {
-   display: inline-block;
+   text-align:center;
    padding: 28px 30px;
    text-transform: uppercase;
    letter-spacing: 0.5px;
@@ -14,9 +14,9 @@
 }
 .button:hover {
    background-color: #ff0015;
-   box-shadow: 0px 0px 15px  rgb(255, 255, 255);
+   box-shadow: 0px 0px 15px rgb(255, 255, 255);
    transform: scale(105%);
 }
 &_black-shadow:hover {
-   box-shadow: 0px 0px 15px  rgb(0, 0, 0);
+   box-shadow: 0px 0px 15px rgb(0, 0, 0);
 }
