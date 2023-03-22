@@ -32,12 +32,12 @@ aside {
 html,
 body {
 	height: 100%;
-	width: 100%;
 	font-family: "PF Agora Sans Pro";
-	font-size: 100%;
 	font-weight: 400;
 	line-height: 1;
-	font-size: 14px;
+	font-size: 16px;
+	color: rgba(20, 21, 21, 1);
+
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;

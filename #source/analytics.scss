@@ -7,9 +7,10 @@
       position: relative;
       display: flex;
       justify-content: center;
+      padding-top: 50px;
    }
 
-   //media
+   //MEDIA ANALYTICS
 
    @media (max-width: 767.98px) {
       &__body {
@@ -21,7 +22,6 @@
 //ANALYTICS-LEFT
 
 .analytics-left {
-   // max-width: 630px;
    padding-right: 10px;
 
    &__title {
@@ -52,7 +52,7 @@
       margin-bottom: 233px;
    }
 
-   //media
+   //MEDIA ANALYTICS-LEFT
 
    @media (max-width: 767.98px) {
       display: flex;
@@ -69,13 +69,13 @@
 //ANALYTICS-RIGHT
 
 .analytics-right {
-   // max-width: 630px;
    padding-left: 10px;
 
    &__title {
       position: relative;
       margin-bottom: 50px;
       padding-top: 25px;
+      align-self: flex-start;
    }
 
    &__title::before {
@@ -110,6 +110,8 @@
       left: 0;
    }
 
+   //MEDIA ANALYTICS-RIGHT
+
    @media (max-width: 767.98px) {
       display: flex;
       flex-direction: column;
@@ -135,10 +137,11 @@
    line-height: 38px;
    letter-spacing: 0em;
 
+   //MEDIA SINGLE BLOCKS
+
    @media (max-width: 767.98px) {
       font-size: 20px;
       font-weight: 400;
-		
    }
 }
 .chart {

@@ -12,7 +12,7 @@
 	<div class="wrapper">
 
 		<header class="header">
-			<div class="header__container _container">
+			<div class="header__container container">
 				<nav class="header__menu menu">
 					<ul class="menu__list">
 						<li class="menu__item"><a class="menu__link" href="#">Главная</a></li>
@@ -27,79 +27,99 @@
 				</div>
 			</div>
 		</header>
-
-		<main class="main">
-
-			<section class="about">
-				<div class="about__body _container">
-					<div class="about__header">
-						<div class="about__logo logo">
-							<img src="/img/about/logo/Logo.png" alt="Logo">
+		<main class="page">
+			<div class="page__about about-block">
+				<div class="about-block__container container">
+					<div class="about-block__body">
+						<div class="about-block__logo logo">
+							<img src="/img/about/logo/logo.svg" alt="logo">
 						</div>
-						<div class="about__title title">
-							<h1>AI-Driven Analytics Platform</h1>
+						<div class="about-block__title">
+							<h1 class="title">AI-Driven Analytics Platform</h1>
 						</div>
-					</div>
-					<div class="about__row">
-						<div class="about__column">
-							<div class="item-about item-about_big">
-								<div class="item-about__icon">
-									<img src="/img/about/card/Vector(0).svg" alt="" srcset="">
-								</div>
-								<div class="item-about__title">Обработка данных</div>
-								<div class="item-about__text">
-									<p>Мы помогаем клиентам подобрать необходимые источники данных
-										(через Pop UP нужно показать логотипы: Все ОФД, Nielsen,
-										Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим их к единому формату и
-										классификатору.</p>
+						<section class="page__services services">
+							<div class="services__container container">
+								<div class="services__body">
+									<div class="services__column">
+										<a href="" class="services__link">
+											<div class="services__item item-about item-about_big">
+												<div class="item-about__icon">
+													<img src="/img/about/card/Vector(0).svg" alt="icon">
+												</div>
+												<div class="item-about__title">
+													<h3>Обработка данных</h3>
+												</div>
+												<div class="item-about__text">
+													<p>Мы помогаем клиентам подобрать необходимые источники данных
+														(через Pop UP нужно показать логотипы: Все ОФД, Nielsen,
+														Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим их к единому
+														формату и
+														классификатору.
+													</p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="services__column">
+										<a href="" class="services__link">
+											<div class="services__item item-about">
+												<div class="item-about__icon">
+													<img src="/img/about/card/Vector (1).svg" alt="icon" srcset="">
+												</div>
+												<div class="item-about__title">
+													<h3>Анализ</h3>
+												</div>
+											</div>
+									</div>
+									</a>
+									<div class="services__column">
+										<a href="http://" class="services__link">
+											<div class="services__item item-about">
+												<div class="item-about__icon">
+													<img src="/img/about/card/Vector (2).svg" alt="icon" srcset="">
+												</div>
+												<div class="item-about__title">
+													<h3>Визуализация</h3>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="services__column">
+										<a href="http://" class="services__link">
+											<div class="services__item item-about">
+												<div class="item-about__icon">
+													<img src="/img/about/card/Vector (3).svg" alt="icon" srcset="">
+												</div>
+												<div class="item-about__title">
+													<h3>Интерпретация</h3>
+												</div>
+											</div>
+										</a>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="about__column">
-							<div class="item-about">
-								<div class="item-about__icon">
-									<img src="/img/about/card/Vector (1).svg" alt="" srcset="">
-								</div>
-								<div class="item-about__title">Анализ</div>
-
-							</div>
-						</div>
-						<div class="about__column">
-							<div class="item-about">
-								<div class="item-about__icon">
-									<img src="/img/about/card/Vector (2).svg" alt="" srcset="">
-								</div>
-								<div class="item-about__title">Визуализация</div>
-
-							</div>
-						</div>
-						<div class="about__column">
-							<div class="item-about  ">
-								<div class="item-about__icon">
-									<img src="/img/about/card/Vector (3).svg" alt="" srcset="">
-								</div>
-								<div class="item-about__title">Интерпретация</div>
-
-							</div>
-						</div>
+						</section>
 					</div>
 				</div>
-			</section>
+				<div class="about-block__image ibg">
+					<img class="ibg__main-bg" src="/img/about/bg/bg-main.jpg" alt="cover">
+					<img class="ibg__bottom-bg" src="/img/about/bg/bg-bottom.svg" alt="cover">
+				</div>
 
-			<section class="analytics">
-				<div class="analytics__body _container">
+			</div>
+			<section class="page__analytics analytics">
+				<div class="analytics__body container">
 					<div class="analytics-left">
 						<h2 class="analytics-left__title title-analitycs">Промо-давление увеличивается</h2>
-						<div  class="analytics-left__chart chart">
+						<div class="analytics-left__chart chart">
 							<canvas id="myChart"></canvas>
 						</div>
 						<div class="analytics-left__button">
 							<a href="#" class="button button_black-shadow">Почему увеличивается?</a>
 						</div>
-							<h2 class="analytics-left__title title-analitycs">Собираем и обрабатываем гранулярные данные на уровне
-								сети
-							</h2>
-
+						<h2 class="analytics-left__title title-analitycs">Собираем и обрабатываем гранулярные данные на уровне
+							сети
+						</h2>
 					</div>
 					<div class="analytics-right">
 						<h2 class="analytics-right__title title-analitycs">80% данных не используется производителями</h2>
@@ -110,16 +130,11 @@
 							<div class="analytics-right__img-circle">
 								<img src="/img/analytics-right/analytics-right-circle.svg" alt="" srcset="">
 							</div>
-
 						</div>
 					</div>
-				
 				</div>
-
-
 			</section>
 		</main>
-
 	</div>
 	<script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script defer src="/script.js"></script>

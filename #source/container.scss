@@ -1,8 +1,12 @@
-._container {
-   max-width: 1260px;
+//MAIN
+
+.container {
+   max-width: 1330px;
    margin: 0 auto;
    padding: 0 15px;
+   // background-color: rgba(0, 110, 255, 0.295);
 }
+/* 
 // PC
 @media (max-width: 1260px) {
    ._container {
@@ -11,6 +15,7 @@
       padding: 0 15px;
    }
 }
+
 // TABLET
 @media (max-width: 1200px) {
    ._container {
@@ -19,6 +24,7 @@
       padding: 0 15px;
    }
 }
+
 // MOBILE
 @media (max-width: 767.98px) {
    ._container {
@@ -27,6 +33,7 @@
       padding: 0 15px;
    }
 }
+
 // MOBILE
 @media (max-width: 576px) {
    ._container {
@@ -35,3 +42,4 @@
       padding: 0 15px;
    }
 }
+ */
