@@ -1,23 +1,23 @@
 /* --SETUP--------------------------------------------- */
 
-@import url(/css/setup/base.css);
-@import url(/css/setup/fonts.css);
+@import url(../../css/setup/base.css);
+@import url(../../css/setup/fonts.css);
 
 /* --BASE--------------------------------------------- */
 
-@import url(/css/blocks/container.css);
-@import url(/css/blocks/ibg.css);
-@import url(/css/blocks/wrapper.css);
+@import url(../../css/blocks/container.css);
+@import url(../../css/blocks/ibg.css);
+@import url(../../css/blocks/wrapper.css);
 
 /* --BLOCKS--------------------------------------------- */
 
-@import url(/css/blocks/button.css);
-@import url(/css/blocks/header.css);
-@import url(/css/blocks/menu.css);
-@import url(/css/blocks/page.css);
-@import url(/css/blocks/about-block.css);
-@import url(/css/blocks/title.css);
-@import url(/css/blocks/analytics.css);
-@import url(/css/blocks/logo.css);
-@import url(/css/blocks/item-about.css);
-@import url(/css/blocks/services.css);
+@import url(../../css/blocks/button.css);
+@import url(../../css/blocks/header.css);
+@import url(../../css/blocks/menu.css);
+@import url(../../css/blocks/page.css);
+@import url(../../css/blocks/about-block.css);
+@import url(../../css/blocks/title.css);
+@import url(../../css/blocks/analytics.css);
+@import url(../../css/blocks/logo.css);
+@import url(../../css/blocks/item-about.css);
+@import url(../../css/blocks/services.css);
