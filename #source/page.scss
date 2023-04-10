@@ -1,8 +1,13 @@
-
 .page {
-	flex: 1 1 auto;
+   flex: 1 1 auto;
 
-		// .page__services
+   // .page__services
 
-		&__services {}
+   &__services {
+   }
+
+   // .page__whatwedo
+
+   &__whatwedo {
+   }
 }

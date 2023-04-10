@@ -1,8 +1,6 @@
 //ANALYTICS
 
 .analytics {
-   max-width: 100%;
-
    &__body {
       position: relative;
       display: flex;
@@ -46,10 +44,6 @@
 
    &__chart {
       margin-bottom: 79px;
-   }
-
-   &__button {
-      margin-bottom: 233px;
    }
 
    //MEDIA ANALYTICS-LEFT
@@ -143,7 +137,4 @@
       font-size: 20px;
       font-weight: 400;
    }
-}
-.chart {
-   // width: 100%;
 }

@@ -10,7 +10,6 @@
 
 <body>
 	<div class="wrapper">
-
 		<header class="header">
 			<div class="header__container container">
 				<nav class="header__menu menu">
@@ -28,23 +27,23 @@
 			</div>
 		</header>
 		<main class="page">
-			<div class="page__about about-block">
+			<section class="page__about about-block">
 				<div class="about-block__container container">
 					<div class="about-block__body">
 						<div class="about-block__logo logo">
 							<img src="/img/about/logo/logo.svg" alt="logo">
 						</div>
 						<div class="about-block__title">
-							<h1 class="title">AI-Driven Analytics Platform</h1>
+							<h1 id="main-title" class="title">AI-Driven Analytics Platform</h1>
 						</div>
 						<section class="page__services services">
 							<div class="services__container container">
 								<div class="services__body">
 									<div class="services__column">
-										<a href="" class="services__link">
+										<a href="#" class="services__link">
 											<div class="services__item item-about item-about_big">
 												<div class="item-about__icon">
-													<img src="/img/about/card/Vector(0).svg" alt="icon">
+													<img src="../../img/about/card/Vector(0).svg" alt="icon">
 												</div>
 												<div class="item-about__title">
 													<h3>Обработка данных</h3>
@@ -61,22 +60,22 @@
 										</a>
 									</div>
 									<div class="services__column">
-										<a href="" class="services__link">
-											<div class="services__item item-about">
+										<a href="#" class="services__link">
+											<div class="services__item item-about" id="item-analys">
 												<div class="item-about__icon">
-													<img src="/img/about/card/Vector (1).svg" alt="icon" srcset="">
+													<img src="../../img/about/card/Vector (1).svg" alt="icon" srcset="">
 												</div>
 												<div class="item-about__title">
 													<h3>Анализ</h3>
 												</div>
 											</div>
+										</a>
 									</div>
-									</a>
 									<div class="services__column">
-										<a href="http://" class="services__link">
+										<a href="#" class="services__link">
 											<div class="services__item item-about">
 												<div class="item-about__icon">
-													<img src="/img/about/card/Vector (2).svg" alt="icon" srcset="">
+													<img src="../../img/about/card/Vector (2).svg" alt="icon" srcset="">
 												</div>
 												<div class="item-about__title">
 													<h3>Визуализация</h3>
@@ -85,10 +84,10 @@
 										</a>
 									</div>
 									<div class="services__column">
-										<a href="http://" class="services__link">
+										<a href="#" class="services__link">
 											<div class="services__item item-about">
 												<div class="item-about__icon">
-													<img src="/img/about/card/Vector (3).svg" alt="icon" srcset="">
+													<img src="../../img/about/card/Vector (3).svg" alt="icon" srcset="">
 												</div>
 												<div class="item-about__title">
 													<h3>Интерпретация</h3>
@@ -102,42 +101,110 @@
 					</div>
 				</div>
 				<div class="about-block__image ibg">
-					<img class="ibg__main-bg" src="/img/about/bg/bg-main.jpg" alt="cover">
-					<img class="ibg__bottom-bg" src="/img/about/bg/bg-bottom.svg" alt="cover">
-				</div>
-
-			</div>
-			<section class="page__analytics analytics">
-				<div class="analytics__body container">
-					<div class="analytics-left">
-						<h2 class="analytics-left__title title-analitycs">Промо-давление увеличивается</h2>
-						<div class="analytics-left__chart chart">
-							<canvas id="myChart"></canvas>
-						</div>
-						<div class="analytics-left__button">
-							<a href="#" class="button button_black-shadow">Почему увеличивается?</a>
-						</div>
-						<h2 class="analytics-left__title title-analitycs">Собираем и обрабатываем гранулярные данные на уровне
-							сети
-						</h2>
-					</div>
-					<div class="analytics-right">
-						<h2 class="analytics-right__title title-analitycs">80% данных не используется производителями</h2>
-						<div class="analytics-right__images">
-							<div class="analytics-right__img-man">
-								<img height="585" src="/img/analytics-right/analytics-right-man.jpg" alt="" srcset="">
-							</div>
-							<div class="analytics-right__img-circle">
-								<img src="/img/analytics-right/analytics-right-circle.svg" alt="" srcset="">
-							</div>
-						</div>
-					</div>
+					<img class="ibg__main-bg" src="../../img/about/bg/bg-main.jpg" alt="cover">
+					<img class="ibg__bottom-bg" src="../../img/about/bg/bg-bottom.svg" alt="cover">
 				</div>
 			</section>
+			<!-- <section class="page__analytics analytics">
+				<div class="analytics__container container">
+					<div class="analytics__body">
+						<div class="analytics__column">
+							<div class="analytics__chart chart">
+								<h2 class="chart__title">Промо-давление <br> увеличивается</h2>
+								<div class="chart__visual">тут график</div>
+								<div class="chart__button">
+									<a href="#" class="button"></a>
+								</div>
+							</div>
+						</div>
+						<div class="analytics__column">
+							<div class="analytics__statistic statistic">
+								<h2 class="statistic__title">80% данных не используется <br> производителями</h2>
+								<div class="statistic__images">
+									<img src="/img/analytics-right/analytics-right-circle.svg" alt="cover">
+									<img src="/img/analytics-right/analytics-right-man.jpg" alt="cover">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section> -->
+			<!-- 
+			<section class="page__whatwedo whatwedo">
+				<div class="whatwedo__container container">
+					<div class="whatwedo__header">
+						<h2 class="whatwedo__title title-analitycs">
+							Собираем и обрабатываем <br> гранулярные данные на уровне сети
+						</h2>
+					</div>
+					<div class="whatwedo__body">
+						<div class="whatwedo__colums">
+							<section class="whatwedo__dataprocessing dataprocessing">
+								<div class="dataprocessing__content">
+									<h3 class="dataprocessing__title">Обработка данных</h3>
+									<div class="dataconversion__title-number">1</div>
+									<div class="dataprocessing__features item">
+										<div class="item__icon icon">
+											<img src="/img/about/card/Vector(0).svg" alt="icon">
+										</div>
+										<p class="item__text">
+											Мы используем точные алгоритмы и машинное обучение
+										</p>
+									</div>
+									<div class="dataprocessing__features item">
+										<div class="item__icon icon">
+											<img src="/img/about/card/Vector(0).svg" alt="icon">
+										</div>
+										<p class="item__text">
+											Консолидируем, проверяем, визуализируем и интерпретируем информацию.
+										</p>
+									</div>
+									<div class="dataprocessing__features item">
+										<div class="item__icon icon">
+											<img src="/img/about/card/Vector(0).svg" alt="icon">
+										</div>
+										<p class="item__text">
+											Разрабатываем рекомендации для эффективной промо-стратегии и тактических решений
+										</p>
+									</div>
+								</div>
+							</section>
+							<section class="whatwedo__dataconversion dataconversion">
+								<div class="dataconversion__content">
+									<h3 class="dataconversion__title">Преобразование данных</h3>
+									<div class="dataconversion__title-number">2</div>
+									<div class="dataconversion__body">
+										<div class="dataconversion__column">
+											<div class="dataconversion__item">
+												<div class="dataconversion__text">Ежемесячные</div>
+												<div class="dataconversion__text">Сырые данные</div>
+												<div class="dataconversion__text">Промо/
+													регулярные</div>
+												<div class="item__text">Дистрибуция</div>
+											</div>
+										</div>
+										<div class="dataconversion__column">
+											<div class="dataconversion__item">
+												<div class="dataconversion__text">Еженедельные</div>
+												<div class="dataconversion__text">Промо/регулярные</div>
+												<div class="dataconversion__text">Базовые/
+													Инкрементальные</div>
+												<div class="item__text">Конкретное
+													окружение</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</div>
+						<img src="/img/data-block/data-block bg-circle.svg" alt="background" class="whatwedo__ibg ibg">
+					</div>
+				</div>
+			</section> -->
 		</main>
 	</div>
-	<script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-	<script defer src="/script.js"></script>
+	<!-- <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+	<!-- <script defer src="/script.js"></script> -->
 </body>
 
 </html>

@@ -24,7 +24,7 @@
       font-size: 18px;
       font-weight: 700;
       line-height: 133%;
-      
+
       color: rgba(255, 255, 255, 1);
       transition: text-shadow 0.3s ease, color 0.4s, transform 0.5s;
    }
@@ -36,21 +36,13 @@
    }
 
    /*----- MEDIA MENU------------------------------------------------------------------------- */
-
-   @media (max-width: 375px) {
-   }
-
-   @media (max-width: 479px) {
-   }
-
+ 
    @media (max-width: 768px) {
       &__link {
          font-weight: 400;
       }
    }
 
-   @media (max-width: 992px) {
-   }
    @media (max-width: 1050px) {
       &__item {
          margin: 0 45px 0 0;

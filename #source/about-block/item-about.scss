@@ -20,13 +20,9 @@
       box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.466);
    }
 
-   &__content {
-		
-   }
-
    &__link {
-		display: flex;
-		color: inherit;
+      display: flex;
+      color: inherit;
    }
 
    &__icon {
@@ -61,11 +57,10 @@
    &_big {
       flex: 1 1 600px;
       padding: 25px 25px 54px;
-      // max-height: 325px;
-		max-height: 100%;
+      max-height: 100%;
       width: 100%;
       text-align: start;
-      background: url(/img/about/card/bg-big-card.jpg) no-repeat center / cover;
+      background: url(../../img/about/card/bg-big-card.jpg) no-repeat center / cover;
       transition: box-shadow 0.3s ease 0s;
 
       .item-about__icon {
@@ -110,8 +105,5 @@
             }
          }
       }
-   }
-
-   @media (max-width: 767.98px) {
    }
 }

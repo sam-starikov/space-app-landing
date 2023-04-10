@@ -22,3 +22,19 @@ new Chart(ctx, {
       },
    },
 })
+/* ---------------------------------- */
+
+const btn = document.querySelector('.button')
+const itemAnalys = document.querySelector('#item-analys')
+const mainTitle = document.querySelector('#main-title')
+const arrText = ['Анализирую', 'AI-Driven Analytics Platform']
+
+btn.addEventListener('click', () => btn.classList.toggle('test'))
+
+itemAnalys.addEventListener('click', () => {
+   mainTitle.textContent === `AI-Driven Analytics Platform`
+      ? (mainTitle.textContent = `Анализирую`)
+      : (mainTitle.textContent = `AI-Driven Analytics Platform`)
+})
+
+

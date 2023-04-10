@@ -3,7 +3,6 @@
 .about-block {
    position: relative;
    color: #ffffff;
-	
 
    &__container {
       padding-top: 150px;
@@ -11,19 +10,9 @@
       position: relative;
       z-index: 9;
    }
-   &__body {
-   }
+
    &__body > *:not(:last-child) {
       margin-bottom: 80px;
-   }
-
-   &__header {
-   }
-
-   &__logo {
-   }
-
-   &__title {
    }
 
    &__image {
@@ -46,8 +35,5 @@
       &__container {
          padding-top: 180px;
       }
-   }
-
-   @media (max-width: 1200px) {
    }
 }
