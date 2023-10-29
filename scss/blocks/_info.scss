@@ -1,9 +1,9 @@
 .info {
 	position: relative;
-	background: url(img/info/bg.jpg) no-repeat center / cover;
+	background: url(../img/info/bg.jpg) no-repeat center / cover;
 
 	&::after {
-		content: url(img/info/decor-bottom.svg);
+		content: url(../img/info/decor-bottom.svg);
 		position: absolute;
 		bottom: -5px;
 		right: 0;
@@ -51,7 +51,7 @@
 	padding: 25px;
 	border-radius: 20px;
 	border: 2px solid rgba(100, 100, 100, 0.33);
-	background: url(img/info/card/bg.jpg) no-repeat center / cover;
+	background: url(../img/info/card/bg.jpg) no-repeat center / cover;
 }
 
 .info__card-title {
