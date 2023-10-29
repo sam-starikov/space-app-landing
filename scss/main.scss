@@ -1,13 +1,13 @@
 /* SETTINGS */
 @import './base/reset';
-@import './base/vars';
+@import './base/media';
 @import './base/fonts';
 @import './base/base';
 
 /* BLOCKS */
 @import './blocks/header';
-@import './blocks/menu';
 @import './blocks/page';
 @import './blocks/info';
 @import './blocks/analytics';
 @import './blocks/whatwedo';
+@import './blocks/swiper';

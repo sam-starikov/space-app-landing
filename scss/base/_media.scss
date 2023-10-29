@@ -51,3 +51,12 @@
 		@content;
 	}
 }
+
+// ПРИМЕР
+// .main {
+//   padding: 0 15px;
+
+//   @include xs {
+//     padding: 0 10px;
+//   }
+// }

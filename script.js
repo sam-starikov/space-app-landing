@@ -1,3 +1,18 @@
+/* Burger */
+let burger = document.querySelector('.header__burger')
+let menu = document.querySelector('.header__menu')
+
+function toggleBurger() {
+	burger.addEventListener('click', function () {
+		burger.classList.toggle('active')
+		menu.classList.toggle('active')
+		document.body.classList.toggle('lock')
+	})
+}
+
+toggleBurger()
+
+/* Chart.js */
 const ctx = document.getElementById('myChart')
 
 new Chart(ctx, {
@@ -30,5 +45,25 @@ new Chart(ctx, {
 				beginAtZero: true,
 			},
 		},
+	},
+})
+
+/* Swiper.js */
+const swiper = new Swiper('.swiper', {
+	autoplay: {
+		delay: 2000,
+	},
+
+	centeredSlides: true,
+	direction: 'horizontal',
+	loop: true,
+
+	pagination: {
+		el: '.swiper-pagination',
+	},
+
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
 	},
 })
