@@ -27,6 +27,7 @@
 
 	&__burger {
 		display: none;
+		cursor: pointer;
 	}
 
 	&__menu {
@@ -76,17 +77,17 @@
 		height: 20px;
 		z-index: 3;
 	}
-	.header__burger::before,
-	.header__burger::after {
-		content: '';
-		position: absolute;
-		left: 0;
-		width: 100%;
-		height: 2px;
-		background-color: #fff;
-		transition: all 0.3s ease 0s;
-		cursor: pointer;
-	}
+}
+.header__burger::before,
+.header__burger::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	transition: all 0.3s ease 0s;
+
 	.header__burger::before {
 		top: 0;
 	}
@@ -100,7 +101,6 @@
 		height: 2px;
 		top: 9px;
 		left: 0;
-		cursor: pointer;
 		transition: all 0.3s ease 0s;
 	}
 	.header__burger.active::before {
