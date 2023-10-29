@@ -320,6 +320,7 @@ a {
     width: 30px;
     height: 20px;
     z-index: 3;
+    cursor: pointer;
   }
   .header__burger::before,
   .header__burger::after {
@@ -331,7 +332,6 @@ a {
     background-color: #fff;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    cursor: pointer;
   }
   .header__burger::before {
     top: 0;
