@@ -24,7 +24,7 @@
 		height: 8px;
 		width: 75px;
 		margin-bottom: 20px;
-		background-image: url(/img/analytics/decore-rectangle.svg);
+		background-image: url(img/analytics/decore-rectangle.svg);
 	}
 
 	&__chart_line {
@@ -40,7 +40,7 @@
 		align-self: center;
 		width: 443px;
 		height: 543px;
-		background: url(/img/analytics/analytics-bg.png) no-repeat center / cover;
+		background: url(img/analytics/analytics-bg.png) no-repeat center / cover;
 	}
 
 	&__chart_circle::after {
@@ -48,7 +48,7 @@
 		bottom: -50px;
 		right: 0;
 		z-index: 10;
-		content: url(/img/analytics/shadow-bottom.svg);
+		content: url(img/analytics/shadow-bottom.svg);
 	}
 
 	&__button {

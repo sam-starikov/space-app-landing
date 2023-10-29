@@ -109,21 +109,21 @@ legend {
 
 @font-face {
   font-family: "PF Agora Sans Pro";
-  src: url("/fonts/PFAgoraSansPro-Regular.woff2") format("woff2"), url("/fonts/PFAgoraSansPro-Regular.woff") format("woff"), url("/fonts/PFAgoraSansPro-Regular.svg#PFAgoraSansPro-Regular") format("svg");
+  src: url("fonts/PFAgoraSansPro-Regular.woff2") format("woff2"), url("fonts/PFAgoraSansPro-Regular.woff") format("woff"), url("fonts/PFAgoraSansPro-Regular.svg#PFAgoraSansPro-Regular") format("svg");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "PF Agora Sans Pro";
-  src: url("/fonts/PFAgoraSansPro-Bold.woff2") format("woff2"), url("/fonts/PFAgoraSansPro-Bold.woff") format("woff"), url("/fonts/PFAgoraSansPro-Bold.svg#PFAgoraSansPro-Bold") format("svg");
+  src: url("fonts/PFAgoraSansPro-Bold.woff2") format("woff2"), url("fonts/PFAgoraSansPro-Bold.woff") format("woff"), url("fonts/PFAgoraSansPro-Bold.svg#PFAgoraSansPro-Bold") format("svg");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "PF Agora Sans Pro";
-  src: url("/fonts/PFAgoraSansPro-Black.woff2") format("woff2"), url("/fonts/PFAgoraSansPro-Black.woff") format("woff"), url("/fonts/PFAgoraSansPro-Black.svg#PFAgoraSansPro-Black") format("svg");
+  src: url("fonts/PFAgoraSansPro-Black.woff2") format("woff2"), url("fonts/PFAgoraSansPro-Black.woff") format("woff"), url("fonts/PFAgoraSansPro-Black.svg#PFAgoraSansPro-Black") format("svg");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -330,6 +330,7 @@ a {
     background-color: #fff;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
   }
   .header__burger::before {
     top: 0;
@@ -344,6 +345,7 @@ a {
     height: 2px;
     top: 9px;
     left: 0;
+    cursor: pointer;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
   }
@@ -391,10 +393,10 @@ a {
 
 .info {
   position: relative;
-  background: url(/img/info/bg.jpg) no-repeat center/cover;
+  background: url(img/info/bg.jpg) no-repeat center/cover;
 }
 .info::after {
-  content: url(/img/info/decor-bottom.svg);
+  content: url(img/info/decor-bottom.svg);
   position: absolute;
   bottom: -5px;
   right: 0;
@@ -443,7 +445,7 @@ a {
   padding: 25px;
   border-radius: 20px;
   border: 2px solid rgba(100, 100, 100, 0.33);
-  background: url(/img/info/card/bg.jpg) no-repeat center/cover;
+  background: url(img/info/card/bg.jpg) no-repeat center/cover;
 }
 
 .info__card-title {
@@ -516,7 +518,7 @@ a {
   height: 8px;
   width: 75px;
   margin-bottom: 20px;
-  background-image: url(/img/analytics/decore-rectangle.svg);
+  background-image: url(img/analytics/decore-rectangle.svg);
 }
 .analytics__chart_line {
   max-width: 100%;
@@ -534,14 +536,14 @@ a {
       align-self: center;
   width: 443px;
   height: 543px;
-  background: url(/img/analytics/analytics-bg.png) no-repeat center/cover;
+  background: url(img/analytics/analytics-bg.png) no-repeat center/cover;
 }
 .analytics__chart_circle::after {
   position: absolute;
   bottom: -50px;
   right: 0;
   z-index: 10;
-  content: url(/img/analytics/shadow-bottom.svg);
+  content: url(img/analytics/shadow-bottom.svg);
 }
 .analytics__button {
   -ms-flex-item-align: center;
@@ -589,7 +591,7 @@ a {
   left: 0;
   height: 8px;
   width: 75px;
-  background: url(/img/analytics/decore-rectangle.svg);
+  background: url(img/analytics/decore-rectangle.svg);
 }
 .whatwedo__body {
   display: -webkit-box;
@@ -598,7 +600,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: url(/img/bg-spiral.svg) no-repeat center/contain;
+  background: url(img/bg-spiral.svg) no-repeat center/contain;
 }
 .whatwedo__column-features {
   margin-right: 35px;
@@ -611,7 +613,7 @@ a {
   margin-bottom: 85px;
 }
 .whatwedo__title-features::before {
-  content: url(/img/decore-number\ 1.svg);
+  content: url(img/decore-number\ 1.svg);
   position: absolute;
   top: -30px;
   left: 10px;
@@ -662,7 +664,7 @@ a {
   margin-bottom: 85px;
 }
 .whatwedo__title-processing::before {
-  content: url(/img/decore-number\ 2.svg);
+  content: url(img/decore-number\ 2.svg);
   position: absolute;
   top: -35px;
   left: 10px;
@@ -700,7 +702,7 @@ a {
   line-height: 1; /* 100% */
 }
 .whatwedo__item-list::after {
-  content: url(/img/arrow-right.svg);
+  content: url(img/arrow-right.svg);
   position: absolute;
   right: 0;
 }
