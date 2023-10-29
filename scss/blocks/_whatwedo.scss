@@ -15,13 +15,13 @@
 		left: 0;
 		height: 8px;
 		width: 75px;
-		background: url(/img/analytics/decore-rectangle.svg);
+		background: url(img/analytics/decore-rectangle.svg);
 	}
 
 	&__body {
 		display: flex;
 		justify-content: space-between;
-		background: url(/img/bg-spiral.svg) no-repeat center / contain;
+		background: url(img/bg-spiral.svg) no-repeat center / contain;
 	}
 
 	&__column-features {
@@ -34,7 +34,7 @@
 		margin-bottom: 85px;
 
 		&::before {
-			content: url(/img/decore-number\ 1.svg);
+			content: url(img/decore-number\ 1.svg);
 			position: absolute;
 			top: -30px;
 			left: 10px;
@@ -76,7 +76,7 @@
 	margin-bottom: 85px;
 
 	&::before {
-		content: url(/img/decore-number\ 2.svg);
+		content: url(img/decore-number\ 2.svg);
 		position: absolute;
 		top: -35px;
 		left: 10px;
@@ -104,7 +104,7 @@
 	line-height: 1; /* 100% */
 
 	&::after {
-		content: url(/img/arrow-right.svg);
+		content: url(img/arrow-right.svg);
 		position: absolute;
 		right: 0;
 	}
