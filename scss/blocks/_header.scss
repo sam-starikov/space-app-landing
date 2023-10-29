@@ -27,6 +27,7 @@
 
 	&__burger {
 		display: none;
+		cursor: pointer;
 	}
 
 	&__menu {
@@ -85,7 +86,7 @@
 		height: 2px;
 		background-color: #fff;
 		transition: all 0.3s ease 0s;
-		cursor: pointer;
+		
 	}
 	.header__burger::before {
 		top: 0;
@@ -100,7 +101,6 @@
 		height: 2px;
 		top: 9px;
 		left: 0;
-		cursor: pointer;
 		transition: all 0.3s ease 0s;
 	}
 	.header__burger.active::before {
