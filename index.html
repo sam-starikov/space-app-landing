@@ -1,210 +1,203 @@
 <!DOCTYPE html>
-<html lang="en">
+<html prefix="og:[http://ogp.me/ns#](http://ogp.me/ns#)" lang="ru-RU">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./css/setup/import.css">
-	<title>IIDA</title>
-</head>
+		<meta property="og:title" content="Хочу работать в SpaceApp" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://vk.com/sam_starikov" />
+		<meta property="og:image" content="img/info/bg.jpg" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:site_name" content="vk.ru" />
+		<meta
+			property="og:description"
+			content="Привет! Я frontend developer и зовут меня Sam! Хочу работать в SpaceApp!" />
 
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="header__container container">
-				<nav class="header__menu menu">
-					<ul class="menu__list">
-						<li class="menu__item"><a class="menu__link" href="#">Главная</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Продукты</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Кейсы</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Экспертное мнение</a></li>
-						<li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
-					</ul>
-				</nav>
-				<div class="header__button">
-					<a href="#" class="button">Запросить презентацию</a>
+		<link rel="stylesheet" href="css/main.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+		<title>IIDA</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container container">
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#">Главная</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Продукты</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Кейсы</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Экспертное мнение</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<button class="header__button button">
+						Хочу работать в SpaceApp
+					</button>
 				</div>
-			</div>
-		</header>
-		<main class="page">
-			<section class="page__about about-block">
-				<div class="about-block__container container">
-					<div class="about-block__body">
-						<div class="about-block__logo logo">
-							<img src="img/about/logo/logo.svg" alt="logo">
-						</div>
-						<div class="about-block__title">
-							<h1 id="main-title" class="title">AI-Driven Analytics Platform</h1>
-						</div>
-						<section class="page__services services">
-							<div class="services__container container">
-								<div class="services__body">
-									<div class="services__column">
-										<a href="#" class="services__link">
-											<div class="services__item item-about item-about_big">
-												<div class="item-about__icon">
-													<img src="img/about/card/Vector(0).svg" alt="icon">
-												</div>
-												<div class="item-about__title">
-													<h3>Обработка данных</h3>
-												</div>
-												<div class="item-about__text">
-													<p>Мы помогаем клиентам подобрать необходимые источники данных
-														(через Pop UP нужно показать логотипы: Все ОФД, Nielsen,
-														Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим их к единому
-														формату и
-														классификатору.
-													</p>
-												</div>
-											</div>
-										</a>
+			</header>
+
+			<main class="page">
+				<section class="page__info info">
+					<div class="info__container container">
+						<div class="info__body">
+							<div class="info__logo">
+								<img src="img/info/logo.svg" alt="logo" />
+							</div>
+							<h1 class="info__title title-1">AI-Driven Analytics Platform</h1>
+							<div class="info__content">
+								<div class="info__card_big">
+									<div class="info__card-icon">
+										<img src="img/info/card/card-icon 1.svg" alt="icon" />
 									</div>
-									<div class="services__column">
-										<a href="#" class="services__link">
-											<div class="services__item item-about" id="item-analys">
-												<div class="item-about__icon">
-													<img src="img/about/card/Vector (1).svg" alt="icon" srcset="">
-												</div>
-												<div class="item-about__title">
-													<h3>Анализ</h3>
-												</div>
-											</div>
-										</a>
+									<div class="info__card-title title-3">
+										<h3>Обработка данных</h3>
 									</div>
-									<div class="services__column">
-										<a href="#" class="services__link">
-											<div class="services__item item-about">
-												<div class="item-about__icon">
-													<img src="img/about/card/Vector (2).svg" alt="icon" srcset="">
-												</div>
-												<div class="item-about__title">
-													<h3>Визуализация</h3>
-												</div>
-											</div>
-										</a>
-									</div>
-									<div class="services__column">
-										<a href="#" class="services__link">
-											<div class="services__item item-about">
-												<div class="item-about__icon">
-													<img src="img/about/card/Vector (3).svg" alt="icon" srcset="">
-												</div>
-												<div class="item-about__title">
-													<h3>Интерпретация</h3>
-												</div>
-											</div>
-										</a>
+									<div class="info__card-description">
+										<p>
+											Мы помогаем клиентам подобрать необходимые источники
+											данных (через Pop UP нужно показать логотипы: Все ОФД,
+											Nielsen, Едадил, СкидкиОнлайн). Валидируем и верифицируем
+											их. Приводим их к единому формату и классификатору.
+										</p>
 									</div>
 								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-				<div class="about-block__image ibg">
-					<img class="ibg__main-bg" src="img/about/bg/bg-main.jpg" alt="cover">
-					<img class="ibg__bottom-bg" src="img/about/bg/bg-bottom.svg" alt="cover">
-				</div>
-			</section>
-			<!-- <section class="page__analytics analytics">
-				<div class="analytics__container container">
-					<div class="analytics__body">
-						<div class="analytics__column">
-							<div class="analytics__chart chart">
-								<h2 class="chart__title">Промо-давление <br> увеличивается</h2>
-								<div class="chart__visual">тут график</div>
-								<div class="chart__button">
-									<a href="#" class="button"></a>
+
+								<div class="info__card">
+									<div class="info__card-icon">
+										<img src="img/info/card/card-icon 2.svg" alt="icon" />
+									</div>
+									<h3 class="title-3">Анализ</h3>
 								</div>
-							</div>
-						</div>
-						<div class="analytics__column">
-							<div class="analytics__statistic statistic">
-								<h2 class="statistic__title">80% данных не используется <br> производителями</h2>
-								<div class="statistic__images">
-									<img src="/img/analytics-right/analytics-right-circle.svg" alt="cover">
-									<img src="/img/analytics-right/analytics-right-man.jpg" alt="cover">
+								<div class="info__card">
+									<div class="info__card-icon">
+										<img src="img/info/card/card-icon 3.svg" alt="icon" />
+									</div>
+									<h3 class="title-3">Визуализация</h3>
+								</div>
+								<div class="info__card">
+									<div class="info__card-icon">
+										<img src="img/info/card/card-icon 4.svg" alt="icon" />
+									</div>
+									<h3 class="title-3">Интерпретация</h3>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section> -->
-			<!-- 
-			<section class="page__whatwedo whatwedo">
-				<div class="whatwedo__container container">
-					<div class="whatwedo__header">
-						<h2 class="whatwedo__title title-analitycs">
-							Собираем и обрабатываем <br> гранулярные данные на уровне сети
+				</section>
+
+				<section class="page__analytics analytics">
+					<div class="analytics__container container">
+						<div class="analytics__body">
+							<div class="analytics__column">
+								<h2 class="analytics__title title-2">
+									Промо-давление <br />
+									увеличивается
+								</h2>
+								<div class="analytics__chart_line">
+									<canvas id="myChart"></canvas>
+								</div>
+								<button class="analytics__button button">
+									Хочу работать в SpaceApp
+								</button>
+							</div>
+
+							<div class="analytics__column">
+								<h2 class="analytics__title title-2">
+									80% данных не используется производителями
+								</h2>
+								<div class="analytics__chart_circle">
+									<!-- <canvas id="myChart"></canvas> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="page__whatwedo whatwedo">
+					<div class="whatwedo__container container">
+						<h2 class="whatwedo__title title-2">
+							Собираем и обрабатываем <br />
+							гранулярные данные на уровне сети
 						</h2>
-					</div>
-					<div class="whatwedo__body">
-						<div class="whatwedo__colums">
-							<section class="whatwedo__dataprocessing dataprocessing">
-								<div class="dataprocessing__content">
-									<h3 class="dataprocessing__title">Обработка данных</h3>
-									<div class="dataconversion__title-number">1</div>
-									<div class="dataprocessing__features item">
-										<div class="item__icon icon">
-											<img src="/img/about/card/Vector(0).svg" alt="icon">
+						<div class="whatwedo__body">
+							<section class="whatwedo__column-features">
+								<h4 class="whatwedo__title-features title-4">
+									Обработка данных
+								</h4>
+								<div class="whatwedo__content-features">
+									<div class="whatwedo__item-features">
+										<div class="whatwedo__icon-features">
+											<img src="/img/icon 1.svg" alt="icon" />
 										</div>
-										<p class="item__text">
+										<p class="whatwedo__description-features">
+											Консолидируем, проверяем, визуализируем и интерпретируем
+											информацию.
+										</p>
+									</div>
+									<div class="whatwedo__item-features">
+										<div class="whatwedo__icon-features">
+											<img src="/img/icon 2.svg" alt="icon" />
+										</div>
+										<p class="whatwedo__description-features">
+											Разрабатываем рекомендации для эффективной промо-стратегии
+											и тактических решений
+										</p>
+									</div>
+									<div class="whatwedo__item-features">
+										<div class="whatwedo__icon-features">
+											<img src="/img/icon 3.svg" alt="icon" />
+										</div>
+										<p class="whatwedo__description-features">
 											Мы используем точные алгоритмы и машинное обучение
 										</p>
 									</div>
-									<div class="dataprocessing__features item">
-										<div class="item__icon icon">
-											<img src="/img/about/card/Vector(0).svg" alt="icon">
-										</div>
-										<p class="item__text">
-											Консолидируем, проверяем, визуализируем и интерпретируем информацию.
-										</p>
-									</div>
-									<div class="dataprocessing__features item">
-										<div class="item__icon icon">
-											<img src="/img/about/card/Vector(0).svg" alt="icon">
-										</div>
-										<p class="item__text">
-											Разрабатываем рекомендации для эффективной промо-стратегии и тактических решений
-										</p>
-									</div>
 								</div>
 							</section>
-							<section class="whatwedo__dataconversion dataconversion">
-								<div class="dataconversion__content">
-									<h3 class="dataconversion__title">Преобразование данных</h3>
-									<div class="dataconversion__title-number">2</div>
-									<div class="dataconversion__body">
-										<div class="dataconversion__column">
-											<div class="dataconversion__item">
-												<div class="dataconversion__text">Ежемесячные</div>
-												<div class="dataconversion__text">Сырые данные</div>
-												<div class="dataconversion__text">Промо/
-													регулярные</div>
-												<div class="item__text">Дистрибуция</div>
-											</div>
-										</div>
-										<div class="dataconversion__column">
-											<div class="dataconversion__item">
-												<div class="dataconversion__text">Еженедельные</div>
-												<div class="dataconversion__text">Промо/регулярные</div>
-												<div class="dataconversion__text">Базовые/
-													Инкрементальные</div>
-												<div class="item__text">Конкретное
-													окружение</div>
-											</div>
-										</div>
-									</div>
+
+							<section class="whatwedo__columns-processing">
+								<h4 class="whatwedo__title-processing title-4">
+									Преобразование данных
+								</h4>
+								<div class="whatwedo__content-processing">
+									<ul class="whatwedo__list-processing">
+										<li class="whatwedo__item-list">Ежемесячные</li>
+										<li class="whatwedo__item-list">Сырые данные</li>
+										<li class="whatwedo__item-list">Промо / регулярные</li>
+										<li class="whatwedo__item-list">Дистрибуция</li>
+									</ul>
+
+									<ul class="whatwedo__list-result">
+										<li class="whatwedo__item-result">Еженедельные</li>
+										<li class="whatwedo__item-result">Промо / регулярные</li>
+										<li class="whatwedo__item-result">
+											Базовые / Инкрементальные
+										</li>
+										<li class="whatwedo__item-result">Конкретное окружение</li>
+									</ul>
 								</div>
 							</section>
 						</div>
-						<img src="/img/data-block/data-block bg-circle.svg" alt="background" class="whatwedo__ibg ibg">
 					</div>
-				</div>
-			</section> -->
-		</main>
-	</div>
-	<!-- <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
-	<!-- <script defer src="/script.js"></script> -->
-</body>
-
+				</section>
+			</main>
+		</div>
+		<script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script defer src="/script.js"></script>
+	</body>
 </html>

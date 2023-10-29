@@ -1,0 +1,80 @@
+.analytics {
+	max-width: 100%;
+	width: 100%;
+	padding-top: 50px;
+
+	&__body {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__column {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		flex: 1 0;
+	}
+
+	&__title {
+		margin-bottom: 40px;
+	}
+
+	&__column::before {
+		content: '';
+		height: 8px;
+		width: 75px;
+		margin-bottom: 20px;
+		background-image: url(/img/analytics/decore-rectangle.svg);
+	}
+
+	&__chart_line {
+		max-width: 100%;
+		width: 100%;
+		flex: 1 1;
+		margin-bottom: 80px;
+		align-self: center;
+	}
+
+	&__chart_circle {
+		position: relative;
+		align-self: center;
+		width: 443px;
+		height: 543px;
+		background: url(../../img/analytics/analytics-bg.png) no-repeat center /
+			cover;
+	}
+
+	&__chart_circle::after {
+		position: absolute;
+		bottom: -50px;
+		right: 0;
+		z-index: 10;
+		content: url(../../img/analytics/shadow-bottom.svg);
+	}
+
+	&__button {
+		align-self: center;
+		max-width: 100%;
+		width: 390px;
+		height: 60px;
+		font-size: calc(16px + 4 * (100vw - 320px) / 940);
+		&:hover {
+			box-shadow: 0px 0px 15px rgb(114, 114, 114);
+		}
+
+		@media (min-width: 1260px) {
+			font-size: 20px;
+		}
+	}
+}
+
+/* --MEDIA-- */
+
+@media (max-width: 767.98px) {
+	.analytics__body {
+		flex-direction: column;
+	}
+	.analytics__button {
+		margin-bottom: 50px;
+	}
+}

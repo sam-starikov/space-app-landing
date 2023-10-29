@@ -1,0 +1,28 @@
+.header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		min-height: 113px;
+		padding-top: 30px;
+	}
+
+	&__menu {
+		margin: 0 15px 0 0;
+	}
+
+	&__button {
+		max-width: 100%;
+		width: 320px;
+		height: 60px;
+		&:hover {
+			box-shadow: 0px 0px 15px rgb(255, 255, 255);
+		}
+	}
+}

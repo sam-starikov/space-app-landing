@@ -1,0 +1,134 @@
+.whatwedo {
+	padding-top: 80px;
+
+	&__title {
+		position: relative;
+		padding-top: 20px;
+		margin-bottom: 99px;
+	}
+
+	&__title::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 8px;
+		width: 75px;
+		background: url(/img/analytics/decore-rectangle.svg);
+	}
+
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		background: url(../../img/bg-spiral.svg) no-repeat center / contain;
+	}
+
+	&__column-features {
+		margin-right: 35px;
+		flex: 1;
+	}
+
+	&__title-features {
+		position: relative;
+		margin-bottom: 85px;
+
+		&::before {
+			content: url(../../img/decore-number\ 1.svg);
+			position: absolute;
+			top: -30px;
+			left: 10px;
+			z-index: -1;
+		}
+	}
+
+	&__content-features {
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	&__item-features {
+		display: flex;
+		align-items: center;
+		column-gap: 32px;
+	}
+
+	&__icon-features {
+		flex: 0 0 auto;
+	}
+
+	&__description-features {
+		max-width: 285px;
+		color: #141515;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 1.5; /* 150% */
+	}
+}
+
+.whatwedo__columns-processing {
+	flex: 1;
+}
+
+.whatwedo__title-processing {
+	position: relative;
+	margin-bottom: 85px;
+
+	&::before {
+		content: url(../../img/decore-number\ 2.svg);
+		position: absolute;
+		top: -35px;
+		left: 10px;
+		z-index: -1;
+	}
+}
+
+.whatwedo__content-processing {
+	display: flex;
+	justify-content: space-between;
+	column-gap: 29px;
+}
+
+.whatwedo__list-processing {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 42px;
+}
+
+.whatwedo__item-list {
+	position: relative;
+	padding-right: 50px;
+	color: #000;
+	font-size: calc(24px + 8 * (100vw - 320px) / 940);
+	line-height: 1; /* 100% */
+
+	&::after {
+		content: url(../../img/arrow-right.svg);
+		position: absolute;
+		right: 0;
+	}
+
+	@media (min-width: 1260px) {
+		font-size: 32px;
+	}
+}
+
+.whatwedo__list-result {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 42px;
+}
+
+.whatwedo__item-result {
+	color: #000;
+	font-size: calc(24px + 8 * (100vw - 320px) / 940);
+	line-height: 1; /* 100% */
+
+	@media (min-width: 1260px) {
+		font-size: 32px;
+	}
+}
+
+/* --MEDIA */

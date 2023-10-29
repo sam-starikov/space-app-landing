@@ -1,0 +1,88 @@
+body {
+	font-family: 'PF Agora Sans Pro', sans-serif;
+	font-weight: 400;
+	line-height: normal;
+	// font-size: $main;
+}
+
+a {
+	// color: $text;
+	cursor: pointer;
+}
+
+/* --WRAPPER-- */
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1920px;
+	min-height: 100vh;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+/* --CONTAINER-- */
+.container {
+	max-width: 1260px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+/* --TITLES-- */
+.title-1 {
+	color: #fff;
+	font-size: calc(24px + 40 * (100vw - 320px) / 940);
+	font-weight: 900;
+
+	@media (min-width: 1260px) {
+		font-size: 64px;
+	}
+}
+
+.title-2 {
+	color: #141515;
+	font-size: calc(24px + 8 * (100vw - 320px) / 940);
+	font-weight: 900;
+
+	@media (min-width: 1260px) {
+		font-size: 32px;
+	}
+}
+
+.title-3 {
+	color: #fff;
+	font-size: calc(14px + 6 * (100vw - 320px) / 940);
+	font-weight: 700;
+
+	@media (min-width: 1260px) {
+		font-size: 20px;
+	}
+}
+
+.title-4 {
+	color: #141515;
+	font-size: calc(14px + 4 * (100vw - 320px) / 940);
+	font-weight: 700;
+}
+
+/* --BUTONS */
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 10px;
+	background-color: #e01e2e;
+	transition: box-shadow 0.3s ease, transform 0.2s ease, filter 0.1s ease;
+
+	&:hover {
+		transform: scale(105%);
+		filter: saturate(2);
+	}
+}
+
+/* --NONE-- */
+.none {
+	display: none;
+}
